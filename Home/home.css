@@ -1,0 +1,322 @@
+* {
+  font-family: "Roboto", Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffff;
+}
+
+/* greeting */
+section{
+  padding-top: 6%;
+}
+.content {
+  display: block;
+  width: 100%;
+  margin-bottom: 36px;
+  background-color: #f8f9fa !important;
+}
+.overview {
+  background: rgb(70, 138, 61);
+  background: linear-gradient(
+    87deg,
+    rgba(70, 138, 61, 1) 0%,
+    rgba(70, 138, 61, 0.5163107479319853) 53%,
+    rgba(70, 138, 61, 0.07093259667148111) 100%
+  );
+  display: flex;
+  width: 100%;
+  height: 620px;
+}
+.overview .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview .text p:first-of-type() {
+  color: rgb(182, 56, 56);
+  margin-left: 5%;
+}
+.overview .text p:first-of-type() {
+  font-family: Agrandir;
+  font-size: 20px;
+  color: #ffff;
+  display: block;
+  margin-left: 5%;
+}
+.overview .text h1 {
+  font-family: Stinger Fit;
+  text-align: center;
+  font-size: 50px;
+  color: #ffff;
+  width: 65%;
+  box-sizing: border-box;
+  border: 5px solid rgba(239, 207, 30, 0.866);
+  border-radius: 10px;
+}
+.overview .text h1 ~ p {
+  width: 80%;
+  font-family: Roboto Slab Thin;
+  font-size: 18px;
+  color: #ffff;
+  display: block;
+  text-align: center;
+}
+.text p span {
+  font-weight: bolder;
+}
+.overview div {
+  width: 54%;
+  margin: 0;
+}
+.text p:last-of-type {
+  margin-top: 5%;
+}
+#first {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+/* --------------------promotion-----------------------*/
+.advertisement {
+  background-color: #fff;
+  display: flex;
+  margin: 5% 0 0 0;
+}
+.advertisement .promotion {
+  width: 72%;
+  margin-left: 5%;
+}
+.advertisement .videos {
+  width: 16%;
+  height: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+/* ---------------------------sp----------------------- */
+
+.new-product-box {
+  width: 90%;
+  margin: 0 auto;
+box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem rgba(0, 0, 0, 0.01);
+}
+
+.new-product-box h2 {
+  font-size: 24px;
+  background: linear-gradient(
+    90deg,
+    rgb(245, 25, 25) 0%,
+    rgba(207, 118, 30, 0.034518030845150593) 98%
+  );
+  padding: 15px 10px;
+  color: #fff;
+}
+
+.new-product-box .list-item {
+  box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.007);
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.item {
+  height: 100%;
+
+}
+
+.item:hover {
+  box-shadow: 0 0 0.85rem rgba(0, 0, 0, 0.274);
+}
+ /* ---------sửa----------- */
+/* .item:hover .item-info a.buy-now{
+  bottom: 100px;
+} */
+.item .item-info {
+  height: 100%;
+  padding:5px;
+  margin: 20px 18px 15px 18px;
+  /* ---------sửa----------- */
+  /* position: relative;
+  overflow: hidden;*/
+} 
+
+.item .item-info img {
+  width: 170px;
+  height: 170px;
+  /* ---------sửa----------- */
+  /* display: block; */
+}
+
+.new-product-box .list-item .item .item-info a {
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: #479f76;
+}
+/* ---------sửa---------- */
+/* .new-product-box .list-item .item .item-info a.buy-now{
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background-color: rgb(254, 254, 110);
+  color:rgb(43, 173, 115);
+  padding: 2px 0px;
+  position: absolute;
+  width: 100%;
+  bottom: -44px;
+} */
+
+.item .item-info p {
+  margin: 0;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #DC3545;
+}
+
+.item .item-info span {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+
+.fruits h2 {
+  background: linear-gradient(
+    90deg,
+    rgb(241, 226, 13) 0%,
+    rgba(207, 118, 30, 0.034518030845150593) 98%
+  );
+}
+
+
+.vegetable h2{
+  background: linear-gradient(
+    90deg,
+    rgb(43, 173, 115) 0%,
+    rgba(207, 118, 30, 0.034518030845150593) 98%
+  );
+}
+
+.fresh-food h2{
+  background: linear-gradient(
+    90deg,
+    rgb(240, 80, 130) 0%,
+    rgba(207, 118, 30, 0.034518030845150593) 98%
+  );
+}
+
+.drinks h2{
+  background: linear-gradient(
+    90deg,
+    rgb(58, 101, 240) 0%,
+    rgba(207, 118, 30, 0.034518030845150593) 98%
+  );
+}
+#km{
+  height: 140px;
+}
+#fruits, #fresh-food, #vegetable, #drinks, #news{
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#vegetable img, #drinks img{
+    width: 46%;
+    margin: 0 2%;
+    border-radius: 5%;
+}
+#fresh-food img{
+  width: 100%;
+}
+#news p{
+  font-size: 25px; 
+  font-style: italic;
+  text-decoration: underline;
+  color:rgb(43, 173, 115);
+  margin: 0 auto;
+  padding: 3% 1% 1% 1%;
+}
+@media only screen and (max-width : 740px){
+  section{
+    padding-top: 100px;
+  }
+  .overview{
+    flex-direction: column-reverse;
+  }
+  .overview div{
+    width: 100%;
+  }
+  .overview .text{
+    width: 100%;
+  }
+  .overview .text h1 {
+    font-family: Stinger Fit;
+    font-size: 32px;
+  }
+  .overview .text h1 p:last-child {
+    width: 95%;
+    text-align: left;
+  }
+  .overview-img{
+    width: 100%;
+  }
+ 
+  .advertisement {
+    flex-direction: column;
+    width: 100%;
+  }
+  .advertisement .promotion {
+    width: 100%;
+    margin-left: 0;
+  }
+  .advertisement .videos {
+    width: 100%;
+    height: 100%;
+    margin: 5% auto 0 auto;
+  }
+  .item {
+    margin: 0 auto;
+  }
+  #fruits, #fresh-food, #vegetable, #drinks, #news{
+    height: 100px;
+  }
+  #vegetable img:first-of-type, #drinks img:first-of-type{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  #vegetable img:nth-of-type(2), #drinks img:nth-of-type(2){
+    display: none;
+  }
+  #news p{
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 740px) and (max-width : 1024px){
+  section{
+    padding-top: 15px;
+  }
+  .content{
+    padding-top: 0;
+  }
+  .item {
+    margin: 0 auto;
+  }
+}

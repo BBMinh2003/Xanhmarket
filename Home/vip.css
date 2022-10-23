@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+   padding-top: 150px;
+   width: 100%;
+   margin-bottom: 36px;
+}
+.col1{
+    width:75%; 
+    margin-left: 50px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.075);
+    padding:24px;
+}
+
+.col1 div ul{
+    line-height: 1.5;
+}
+.page-header{
+    /* position: absolute; */
+    font-size: 14px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+.page-header i:nth-of-type(2)
+{
+    margin-left: 50vw;
+}
+.page-header i{
+    font-size: 18px;
+    padding: 4px;
+    color: #0E7346;
+}
+/* ---------------------content------------------------- */
+h2{
+    color: #0E7347;
+}
+.col1 h1{
+    margin-bottom: 0;
+}
+.col1 p{
+    margin-bottom: 3px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.font-bolder
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6%;
+}
+.roww .col1_1{
+    display: inline-block;
+}
+.roww h4{
+    margin-bottom: 24px;
+}
+.col1_1 a{
+    text-decoration: none;
+    margin: 0px 12px;
+    color: #000;
+    font-weight: bold;
+}
+.col1 div {
+    margin-bottom: 2%;
+}
+.block{
+    font-size: 16px;
+}
+.p{
+    color:rgb(46, 155, 111)
+}
+.note{
+    padding-left: 3%;
+}
+.trivial-information{
+    padding: 0 5%;
+    font-size: 13px;
+}
+.page-header1{
+    padding: 8px;
+}
+/* --------------------------------footer------------------- */
+footer .row{
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    float: left;
+    width: 100%;
+    background-color:rgb(246, 245, 241);
+    line-height: 1.6;
+}
+.boxcenter2{
+    width: 92%;
+    margin: 0 auto;
+
+}
+.boxfooter1{
+    width: 32%;
+    float: left;
+   margin-right: 1%;
+}
+.boxfooter2{
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+}
+
+.boxfooter3{
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter4{
+width: 20%;
+float: left;
+
+}
+.textcenter{
+    text-align: center;
+    color:white;
+    font-size: small;
+}
+.textboxfooter{
+    margin-bottom: 10px;
+    font-size: small;
+}
+.hotro{
+    margin-bottom: 10px;
+    font-size: small;
+    color: black;
+    text-decoration: none
+}
+.hotro:hover{
+    text-decoration: underline;
+}
+.xoaul{
+    list-style-type: none;
+   
+}
+.iconfooter{
+    font-size: 10px;
+}
+.colorgreen{
+    float: left;
+    width: 100%;
+    background-color: green;
+
+}
+.margin10px{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.iconfb{
+    color: blue;
+    font-size:25px;
+}
+.iconfb:hover{
+    color: red;
+}
+.iconins{
+    color: rgb(255, 94, 0);
+    font-size:25px;
+}
+body.modal-open,
+	.modal-open .navbar-fixed-top,
+	.modal-open .navbar-fixed-bottom {
+	    margin-right: 15px;	}
+
