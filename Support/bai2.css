@@ -1,0 +1,328 @@
+*{
+    margin: 0 0 0 0 ;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #F8F9Fa;
+}
+p.textbai,li.textbai{
+    font-size: 14px;
+}
+.marginlef{
+    margin-left: 20px;
+}
+.xoaul{
+    display: inline-block;
+    list-style-type: none
+}
+.xoadiv{
+ display: inline-block; 
+ 
+}
+.xoatext,.xoatext1{
+ text-decoration: none;
+ color: black;
+ margin: 0 5px 0 5px;
+}
+
+/* .than{
+     height: max-content;
+    width:calc(70%); 
+     margin: 10px 20px 10px 20px;
+    background-color:white;
+   
+    
+    margin-left: 15%;
+      
+} */
+@media all and (min-width: 1200px) {
+    img.trentom { 
+       margin-top: 126px;
+    }
+ }
+/* @media (min-width: 1200px) {
+    .col-xl {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%;
+    }
+.col-xl-8{
+    
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 20px;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+}
+.col-xl-4 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }*/
+  /* .col-md-1 {
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 0;
+  
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  } */
+  @media (min-width: 768px){
+.sticky-right {
+    position: sticky;
+    top: 8.5rem;
+    right: 0;
+    z-index: 2;
+}
+}
+
+  @media (min-width: 992px){
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;}}
+.thandau h3{
+   margin: 20px 0 20px -10px;
+}
+.thandau{
+    padding:10px 10px 20px 20px ;
+    margin:0 5px 0 30px;
+}
+.thandau p.luidau{
+    margin-left: 15px;
+}
+.trentom{
+   width: 100%;
+   
+   /* margin-top: 20px; */
+
+}
+.tomtat{
+
+width: 100%;
+    /* height: 200px; */
+    height: calc(100%+100px);
+    background-color: #F8F9Fa;
+    /* position: sticky; */
+}
+.tomtat a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    /* text-align: center; */
+}
+.tomtat a:hover{
+    color: black;
+    opacity: 0.8;
+}
+a.xoatext:hover{
+    color: black;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.textmargin{
+    margin: 0 0 10px 0;
+}
+
+.icontime {
+    font-size: 18px;
+    float: left;
+}
+.kcach{
+    height: 126px;
+}
+.cachduoi{
+    margin-bottom: 0px;
+}
+.cachtren{
+margin-top: 35px;
+}
+.icontomtat{
+    font-size: 30px;
+    color: black;
+}
+
+.icontime i{
+    font-size: 20px;
+    color: #0E7346;
+}
+.iconthan a{
+    color: #0E7346;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.iconthan a:hover{
+    box-shadow: 0 0 1px 1px gray;
+}
+.imgthit{
+    width: calc(100%);
+    text-align: center;
+    /* margin-left:; */
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+.xoalist{
+    list-style-type: none;
+}
+
+
+.textbai{
+    margin: 0 0 10px 0;
+}
+.fw-bold{
+    font-weight: 700!important;
+}
+.card-header{
+    padding: 0.5rem 1rem;
+}
+.list-group-item{
+    padding:0.5rem 1rem;
+}
+.fs-6{
+    font-size: 1rem!important;
+}
+.maunen1{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.cochuto{
+    font-size: 15x;
+}
+.mb-2{
+    margin-bottom: 0.5rem!important;
+}
+.tinlienquan{
+    margin-top: 50px;
+}
+.icontime1{
+    margin-bottom: 40px;
+}
+.bg-success{
+    background-color: #198754!important;
+}
+/* footer */
+footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 20px;}
+    footer .row{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    float: left;
+    width:100%;
+    background-color:rgb(228, 220, 204);
+}
+.boxcenter2{
+    width: 92%;
+    margin: 0 auto;
+
+}
+.boxfooter1{
+    margin-top: 10px;
+    width: 23%;
+    float: left;
+   margin-right: 3%;
+}
+.boxfooter2{
+    margin-top: 10px;
+    width: 23%;
+    float: left;
+    margin-right: 3%;
+}
+
+.boxfooter3{
+    margin-top: 10px;
+    width: 23%;
+    float: left;
+    margin-right: 2%;
+}
+.boxfooter4{
+    margin-top: 10px;
+width: 23%;
+float: left;
+
+}
+.textcenter{
+    text-align: center;
+    color:white;
+    font-size: 14px;
+    
+}
+.textboxfooter{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.hotro{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hotro:hover{
+    color: black;
+    text-decoration: underline;
+}
+.xoaul{
+    list-style-type: none;
+   
+}
+.iconfooter{
+    font-size: 10px;
+    
+}
+.colorgreen{
+    float: left;
+    width: 100%;
+    background-color: #0E7346;
+
+}
+.margin10px{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.iconfb{
+    color: blue;
+    font-size:25px;
+    display: inline-block;
+}
+.iconfb:hover{
+    color: red;
+}
+.iconins{
+    color: rgb(255, 94, 0);
+    font-size:25px;
+}
+.iconins:hover{
+    color: blue;
+}
+footer h4{
+    font-size: 16px;
+}
+.textfb{
+    font-size: 16px;
+}
+a.iconfb{
+    text-decoration: none;
+}
+.textins{
+    font-size: 16px;
+}
+a.iconins{
+    text-decoration: none;
+}
+.roboto{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+

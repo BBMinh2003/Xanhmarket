@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+   
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- bt -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script> -->
+    <link rel="stylesheet" href="../General part/header.css">
+    <link rel="stylesheet" href="../General part/footer.css">
+    <link rel="stylesheet" href="./bai2.css">
+
+</head> 
+<body>
+    <div class="header2 js-menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    <div class="menuan js-menuan">
+       <div class="menuu">
+        <div class="menu-close js-menu-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="menu-search">
+            <input type="text" placeholder="Bạn cần tìm gì...">
+            <div class="ti_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+        <ul>
+            <li><a href="../Home/home.html">Trang chủ</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="../Introduction/gioithieu.html">Giới thiệu</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="#">Hỗ trợ</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="../Home/home.html#news">Tin tức</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+        </ul>
+        <b>Sản phẩm</b>
+        <ul>
+            <li><a href="../Home/home.html#fruits">Trái cây</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="../Home/home.html#drinks">Đồ uống</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="../Home/home.html#vegetable">Rau xanh</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+            <li><a href="../Home/home.html#fresh-food">Thực phẩm tươi sống</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+        </ul>
+            <div class="infoo">
+                <a href="#" class="js-dangnhap dn">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    Đăng nhập
+                </a>
+                <a href="#" class="js-dangki dk">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    Đăng kí
+                </a>
+                <p> <i class="fa fa-phone" aria-hidden="true"></i> 0345.088.880 | 0456.078.978</p>
+            </div>
+        </div>
+       </div>
+    <div class="header">
+       <div class="navi1">
+        <ul class="navi">
+            <li><a href="../Home/home.html">Trang chủ</a></li>
+            <li><a href="../Home/home.html#km">Sản phẩm</a></li>
+            <li><a href="../Introduction/gioithieu.html">Giới thiệu</a></li>
+            <li><a href="#">Hỗ trợ</a></li>
+            <li><a href="../Home/home.html#news">Tin tức</a></li>
+        </ul>
+        <div class="info">
+            <a href="#" class="js-dangnhap">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+                Đăng nhập
+            </a>
+            <span class="px">|</span>
+            <a href="#" class="js-dangki">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Đăng kí
+            </a>
+        </div>
+    </div>
+    <div class="clear"></div>
+       <div class="navi2">
+        <img src="../Introduction/logo.png" alt="huhu" height="70px">
+        <div class="list">
+            <a href="">
+                <i class="fa fa-align-left" aria-hidden="true"></i>
+                Danh mục
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown_menu">
+                <li><a href="./home.html#vegetable">Rau xanh</a></li>
+                <li><a href="./home.html#fruits">Trái cây</a></li>
+                <li><a href="./home.html#fresh-food">Thực phẩm tươi sống</a></li>
+                <li><a href="./home.html#drinks">Đồ uống</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Bạn cần tìm gì...">
+            <div class="ti_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+        </div>
+        <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <p>Giỏ hàng</p>
+            <div class="amount"><p>0</p></div>
+        </div>
+       </div>
+    </div>
+    <div class="login js-login">
+        <div class="login-contain js-logincontain">
+            <div class="login-close js-loginclose">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <header class="login-header">
+                Đăng nhập
+            </header>
+            <div class="login-body">
+                <form action="">
+                    <label for="aaa" class="login-lable"></label>
+                    <input type="text" class="login-input" required placeholder="Tên đăng nhập hoặc số điện thoại" id="aaa">
+                    <label for="bbb" class="login-lable"></label>
+                    <input type="password" class="login-input" required placeholder="Mật khẩu" id="bbb">
+                    <p>Thành viên mới? <span style="color:green ;" class="js-transfer2">Đăng kí</span></p>
+                    <button class="login-button">ĐĂNG NHẬP</button>
+                </form>
+                
+            </div>
+            <div class="login-footer">
+                <i>Hoặc đăng nhập với</i>
+                <br>
+                <button>
+                    <i class="ti-facebook"></i>
+                    Facebook
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="login js-register">
+        <div class="register-contain js-register-contain">
+            <div class="login-close js-closeregister">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <header class="login-header">
+                ĐĂNG KÍ
+                <p>Bạn đã là thành viên? <span style="color:green;" class="js-transfer1">Đăng nhập</span> tại đây</p>
+            </header>
+            <div class="register-body">
+                <form action="">
+                    <label for="aaa" class="login-lable"></label>
+                    <input type="text" class="login-input" required placeholder="Họ và tên" id="aaa">
+                    <label for="bbb" class="login-lable"></label>
+                    <input type="text" class="login-input" required placeholder="Số điện thoại" id="bbb">
+                    <label for="ccc" class="login-lable"></label>
+                    <input type="password" class="login-input" required placeholder="Mật khẩu" id="ccc">
+                    <label for="ddd" class="login-lable"></label>
+                    <input type="password" class="login-input" required placeholder="Xác nhận mật khẩu" id="ddd">
+                    <input type="checkbox" name="" id="checkbox" required>
+                    <label for="">Tôi đồng ý với <a href="https://www.kaercher.com/vn/ben-trong-kaercher/cong-ty/thong-tin-phap-ly/dieu-khoan-su-dung-website.html
+  " target="_blank">điều khoản sử dụng</a> và <a href="https://leeandtee.vn/chinh-sach-bao-mat.html
+  " target="_blank">chính sách bảo mật</a> của market</label> 
+                    <button class="register-button">ĐĂNG KÍ TÀI KHOẢN</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="cachduoi">
+    <ul>
+        <img src="./img/shop.jpg" alt="" class="trentom" id="Hướng dẫn mua hàng">
+    </ul>
+          
+</div> 
+  <div class="container-fluid cachtren">
+    <div class="row">
+         <div class="than col-md-9">
+            <div class="thandau  maunen1">
+            <div class="">
+            <div class="icontime xoaul gachchan" >
+                <i class="fa fa-calendar xoaul" aria-hidden="true"></i> 20-10-2022
+            </div>
+            <!-- <div class="iconthan xoaul">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+            </div>
+            <div class="iconthan xoaul">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </div>
+            <div class="iconthan xoaul">
+                <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </div> -->
+        </div>
+            <div class=""  id=""><br>
+            <h3 >A. Hướng dẫn mua hàng</h3>
+            <p class="textbai ">&ensp; Quý khách hàng có thể mua các sản phẩm của XANH market theo các cách sau:</p>
+            <ol type="1">
+                <li> 
+                    <p class="textbai">Mua hàng tại cừa hàng:</p>
+                    <p class="textbai">&ensp; Quý khách có thể mua hàng tại bất kỳ cửa hàng nào trong danh sách các cửa hàng, siêu thị mini của chúng tôi.</p>
+                </li>
+                <li>
+                    <p class="textbai">Mua hàng Online:</p>
+                    <p class="textbai">&ensp;Để mua hàng Online, quý khách truy cập vào website duy nhất của chúng tôi tại địa chỉ http://xanhmarket.vn sau đó thực hiện theo các bước sau đây:
+                    </p>
+                    <p class="textbai"> B1: Chọn sản phẩm cần mua</p>
+                    <p class="textbai">B2: Chọn số lượng theo hình hướng dẫn sau:</p>
+                    <img class="imgthit" src="./img/muathit.jpg" alt="muahang">
+                </li>
+                <li>
+                   <p class="textbai">Chọn thuộc tính sản phẩm và số lượng cần mua, sau đó bấm vào nút "<b>Mua ngay</b>" hoặc "Thêm vào giỏ hàng"  nếu muốn mua tiếp các sản phẩm khác.</p> 
+                    <br>
+                   <p class="textbai">&ensp;Khi bấm vào "<b>Mua ngay</b>"" quý khách sẽ được chuyển đến trang "Giỏ hàng" để thực hiện các thao tác mua hàng như hình ảnh dưới đây:<br></p>
+                    <img class="imgthit" src="./img/huongdan2.jpg" alt="">
+                </li>
+                <li>
+                    <p class="textbai">Tiếp theo, quý khách điền các thông tin về địa chỉ nhận hàng sau đó bấm vào nút "<b>Đặt hàng</b>".<br></p>
+                   <p id="Hình Thức Thanh Toán"></p><img class="imgthit" id="" src="./img/huongdan3.jpg" alt="">
+                </li>
+            </ol>
+            
+            <div class="thanbai "id="Chính sách đổi trả" >
+                <h3>B. Hình thức thanh toán</h3>
+                <ol>
+                    <li class="textmargin" id="Chính sách đổi trả"><p class="textbai">Hiện tại, đối với các các đơn hàng mua Online mua tại website <b>http://www.XANHmarket.vn</b> chúng tôi chỉ chấp nhận hình thức thanh toán duy nhất là Thanh toán khi nhận hàng (COD).
+                </p></li>
+                <li class="textmargin"><p class="textbai">Hoặc các bạn có thể đến trực tiếp mua các sản phẩm của chúng tôi tại địa chỉ "<b>Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội.</b>".</p> </li>
+                </ol>
+            </div>
+            <div class="thanbai" id="">
+                <h3>C. Chính sách đổi trả</h3>
+                <ul> <p class="textbai textmargin">&ensp;Xanh market cảm ơn sự ủng hộ của Quý khách hàng đối với những sản phẩm của chúng tôi. Với phương châm mang đến cho Khách hàng những sản phẩm có chất lượng tốt nhất, những đơn hàng đã mua quý khách có thể thực hiện việc đổi trả theo những quy định sau đây:</p>
+                    <li> <p class="textbai"><b>Xanh market</b> sẽ nhận đổi trả hàng trong vòng 2h đối với những sản phẩm thuộc ngành hàng thực phẩm tươi hoặc đông lạnh và 24h đối với những sản phẩm thuộc ngành hàng khác tính từ thời điểm khách hàng nhận hàng. Những đơn hàng yêu cầu đổi trả phải thuộc một trong những trường hợp sau đây:</p>
+                        <ul>
+                          <li class="textbai">&ensp;Sản phẩm không đúng quy cách chất lượng, không đúng sản phẩm theo như đơn đặt hàng của khách hàng;</li>
+                            <li class="textbai">&ensp;Sản phẩm bị hỏng do lỗi bảo quản sai kĩ thuật của <b>Xanh market</b>, trường hợp vận chuyển đường xa đi các tỉnh mà khách hàng yêu cầu bảo quản không đúng nhiệt độ (không đóng đá khô, không vận chuyển bằng xe tải lạnh) <b>Xanh market</b> sẽ không chịu trách nhiệm;</li>
+                            <li class="textbai">&ensp;Sản phẩm hết hạn sử dụng trước khi giao cho Khách hàng.</li>
+                        </ul>
+                        
+                    </li>
+                    <li> <p class="textbai">Để yêu cầu đổi trả, quý khách cần đảm bảo các yêu cầu sau:</p>
+                        <ul>
+                            <li class="textbai">&ensp;Có hóa đơn mua hàng tại <b>Xanh market;</b></li>
+                            <li class="textbai">&ensp;Hàng hóa còn nguyên tem mác, bỏ hộp, chưa có dấu hiệu sử dụng.</li>
+                        </ul>
+                    </li>
+                    <li class="textbai"><p id="Hình Thức Vận Chuyển">Khi yêu cầu đổi trả, khách hàng thực hiện theo trình tự sau:</p>
+                        <ul>
+                            <li class="textbai">&ensp;Liên hệ ngay với tổng đài của <b>Xanh market</b> hoặc số điện thoại tại cửa hàng nơi quý khách đã mua;
+                            </li>
+                            
+                            <li class="textbai" >&ensp;Mang hoặc gửi sản phẩm đến địa chỉ cửa hàng nơi khách hàng đã mua sản phẩm đó;
+                            </li>
+                        </ul>
+                        &ensp;    Trường hợp XANH market xác nhận sản phẩm đủ điều kiện đổi trả, chúng tôi sẽ gửi sản phẩm khác cho bạn đồng thời chịu các chi phí vận chuyển để đổi trả đơn hàng đó.
+                    </li>
+                </ul>
+                <div class="thanbai">
+                    <h3>D. Chính Sách Vận Chuyển</h3>
+                    <p class="textbai">&ensp;<b>Xanh market</b>  áp dụng biểu phí giao hàng theo bảng phí giao hàng sau đây:</p>
+                    <p class="textbai">&ensp; Chúng tôi hỗ trợ vận chuyển với mọi đơn hàng có giá trên 300.000đ <b>(1)</b> và các đơn hàng trong bán kính 8km <b>(2)</b>.</p>
+
+                    <p class="textbai"><b>Chú Ý:</b> Với những đơn hàng không đáp ứng yêu cầu "<b>(1)</b>hoặc <b>(2)</b>" thì phí giao hàng: 25.000đ. </p> 
+                     
+                    <p class="textbai"> - Chính sách trên không áp dụng trong thời gian lễ tết, khung giờ cao điểm từ 17h00 đến 19h30 hàng ngày hoặc trong khoảng thời gian có biến động về thời tiết, dịch bệnh.</p>
+                </div>
+            </div>
+            <div class="tinlienquan related-news pt-4"> Tin Liên Quan:<br>
+               <div class="row">
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0 " ><a href="" class="xoatext icontime1">
+                   <p class="mb-2"></p>
+                    <h4 class="fs-6 fw-bold">Về chúng tôi</h4><i class="fa fa-calendar" aria-hidden="true"></i> 20-10-2022</a></div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0"><a href="" class="xoatext">
+                    <p class="mb-2"></p>
+                    <h4 class="fs-6 fw-bold">Chính sách bảo mật</h4><i class="fa fa-calendar" aria-hidden="true"></i> 20-10-2022</a></div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0 "><a href="" class="xoatext">
+                    <p class="mb-2"></p>
+                    <h4 class="fs-6 fw-bold">Hệ thống cửa hàng</h4><i class="fa fa-calendar" aria-hidden="true"></i> 20-10-2022</a></div>
+                <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0"><a href="" class="xoatext">
+                    <p class="mb-2"></p>
+                    <h4 class="fs-6 fw-bold">Tin tức</h4><i class="fa fa-calendar" aria-hidden="true"></i> 20-10-2022</a></div>
+                </div>
+            </div>
+            </div>
+        </div>
+           
+       </div>
+        <div class="col-md-3">
+            <div class="sticky-right"> 
+                <div class="card mb-3">
+                    <div class="card-header bg-success text-white text-uppercase fw-bold ">thông tin hỗ trợ:</div>
+                    <div class="card-body p-0">
+                        <div class="list-group list-group-flush rounded-bottom">
+                            <a href="#Hướng dẫn mua hàng" class=" list-group-item list-group-item-action">&ensp;Hướng Dẫn Mua Hàng</a>
+                      <a href="#Hình Thức Thanh Toán" class=" list-group-item list-group-item-action">&ensp;Hình Thức Thanh Toán</a>
+                     <a href="#Chính sách đổi trả" class=" list-group-item list-group-item-action">&ensp;Chính Sách Đổi Trả</a>
+                     <a href="#Hình Thức Vận Chuyển" class=" list-group-item list-group-item-action" id="Hướng dẫn mua hàng">&ensp;Chính Sách Vận Chuyển </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+         </div>
+        </div>
+        </div>
+            <footer>
+                <div class="row">
+                    <div class="boxcenter2">
+                        <div class="boxfooter1">
+                            <h4 class="roboto">ĐỊA CHỈ CỬA HÀNG</h4>
+                              <p class="textboxfooter"> <i class="fa fa-map-marker iconfooter" aria-hidden="true"></i> Địa chỉ: Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội.</p>
+                            <p class="textboxfooter"><i class="fa fa-envelope iconfooter" aria-hidden="true"></i> Email: hotro@xanhmarket.vn</p>
+                            <p class="textboxfooter"><i class="fa fa-phone iconfooter" aria-hidden="true"></i> Điện thoại: 0345.088.880 | 0923.313.989</p>
+                        </div>
+                        <div class="boxfooter2">
+                    
+                            <h4 class="roboto">GIỚI THIỆU</h4>
+                            <div ><a href=""class="hotro"> Về chúng tôi</a></div>
+                            <div ><a href=""class="hotro">Chính sách bảo mật</a></div>
+                            <div ><a href=""class="hotro">Hệ thống cửa hàng</a></div>
+                            <div ><a href=""class="hotro">Tuyển dụng</a></div>
+                        </div>
+                        <div class="boxfooter3">
+                          
+                            <h4 class="roboto">HỖ TRỢ</h4>
+                            <div ><a href=""class="hotro"> Hướng dẫn mua hàng</a></div>
+                            <div ><a href=""class="hotro">Hình thức thanh toán </a></div>
+                            <div ><a href=""class="hotro">Chính sách đổi trả</a></div>
+                            <div ><a href=""class="hotro">Chính sách vận chuyển</a></div>
+                        </div>
+                        <div class="boxfooter4">
+                            <h4 class="roboto">KẾT NỐI VỚI CHÚNG TÔI</h4>
+                           
+                            <a href="" class="iconfb ">
+                                <i class="fa fa-facebook-official" aria-hidden="true"></i> <r class="textfb">Facebook</r>
+                            </a><br>
+                            <a href="" class="iconins"><i class="fa fa-instagram" aria-hidden="true"></i> <r class="textins"> Instagram</r>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="colorgreen">
+                     <p class="textcenter margin10px">Copyright © XANHMarket 2021. All rights reserved.</p>
+                     <p class="textcenter margin10px">CÔNG TY TNHH THƯƠNG MẠI XANH MARKET. Mã số doanh nghiệp: 0109723568. Đăng ký lần đầu: ngày 29 tháng 07 năm 2021. </p> 
+                    <p class="textcenter margin10px">Trụ sở chính:Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Thành phố Hà Nội, Việt Nam.</p>    
+                </div>
+            </footer>
+            <script src="../General part/web17.js"></script>
+</body>
+</html>
