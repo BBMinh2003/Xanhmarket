@@ -1,0 +1,135 @@
+h1 {
+	text-align: center;
+	font-size: 35px;
+	border-bottom-style:solid;
+}
+div.danhmuc{
+	box-sizing: border-box;
+}
+ .content1 {
+	border-bottom-style:solid;
+  padding-top: 15%;
+	margin-right: 100px ;
+  margin-left: 100px;
+}
+.news > p{
+		margin: 25px 0px;
+}
+.news img {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: auto;
+}
+.source {
+	text-align: right;
+}
+div#sidebar {
+  float: right;
+  padding:25px;	
+  width: 250px;
+  box-shadow:  rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px ;
+}
+
+div.content1 {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* Main column */
+.main {
+  margin-right :  100px;
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+  text-align: justify;
+}
+.tinkhac {
+	display: grid;}
+.item {
+	padding-top: 50px;
+
+}
+.item a img{
+  margin-top: 2%;
+}
+.item:last-of-type{
+  text-align: center;
+  font-style: italic;
+}
+div.danhmuc ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #f1f1f1;
+}
+
+div.danhmuc ul li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div.danhmuc ul li a.titledanhmuc {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+}
+
+div.danhmuc ul li a:hover:not(.titledanhmuc) {
+  background-color: #555;
+  color: white;
+}
+div.item a{
+	font-size: 23px;
+}
+div.item a:link {
+  color: red;
+}
+
+/* visited link */
+div.item a:visited {
+  color: green;
+}
+
+/* mouse over link */
+div.item a:hover {
+  color: pink;
+}
+
+/* selected link */
+div.item a:active {
+  color: lightblue;}
+
+  
+div.item img {
+	width: 100%;
+}
+@media only screen and (max-width : 1024px){
+  .content1{
+    padding-top: 0;
+  }
+  div#sidebar {
+    width: 100%;
+    box-shadow: none ;
+  }
+  .content1{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width : 740px){
+  .main {
+    margin-right :  0;
+  }
+ 
+}
+@media only screen and (min-width: 740px) and (max-width : 1024px){
+  .main {
+    margin-right :  5%;
+  }
+}
