@@ -13,9 +13,11 @@
 .col-12 {width: 100%;}
 
 /* --------------------------content---------------------- */
+body{
+    background-color: #F8F9Fa;
+}
 .content{
     padding-top: 9%; 
-    overflow-x: hidden;
     margin-bottom: 5%;
 }
 .title-image img{
@@ -51,7 +53,7 @@
 }
 
 .text{
-    padding: 5vh 2vw;
+    padding: 5vh 2vw 0;
     box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem rgba(0, 0, 0, 0.1);
 }
 .text h2{
@@ -73,7 +75,6 @@
 .item{
     width: 110px;
     margin-left: 8%;
-    margin-bottom: 8%;
 }
 .item h4{
     font-size: 16px;
@@ -83,11 +84,13 @@
     text-transform: uppercase;
 }
 .row-1{
+    background-color: white;
     width: 95%!important;
     margin: 0 auto!important;
 }
 
 .col-row-2{
+    background-color: white;
     padding: 4% !important;
 }
 .col-row-2 h4{
@@ -98,8 +101,6 @@
 .fa-question-circle{
     font-size: 20px;
 }
-
-
 
 /* ------------------------responsive------------------ */
 @media only screen and (max-width : 740px){

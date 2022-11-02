@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini market</title>
+  
+    <link rel="stylesheet" href="header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="../General part/header.css"/>
+    <link rel="stylesheet" href="../General part/footer.css"/>
+    <link rel="stylesheet" href="../News/tin-tuc.css"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  </head>
+  <body>
+<!------------------------header---------------------->
+    <div class="header2 js-menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+  <div class="menuan js-menuan">
+     <div class="menuu">
+      <div class="menu-close js-menu-close">
+          <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <div class="menu-search">
+          <input type="text" placeholder="Bạn cần tìm gì...">
+          <div class="ti_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+      </div>
+      <ul>
+          <li><a href="./home.html">Trang chủ</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="../Introduction/gioithieu.html">Giới thiệu</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="../Support/bai2.html">Hỗ trợ</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="./home.html#news">Tin tức</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      </ul>
+      <b>Sản phẩm</b>
+      <ul>
+          <li><a href="./home.html#fruits">Trái cây</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="./home.html#drinks">Đồ uống</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="./home.html#vegetable">Rau xanh</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+          <li><a href="./home.html#fresh-food">Thực phẩm tươi sống</a><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      </ul>
+          <div class="infoo">
+              <a href="#" class="js-dangnhap dn">
+                  <i class="fa fa-sign-in" aria-hidden="true"></i>
+                  Đăng nhập
+              </a>
+              <a href="#" class="js-dangki dk">
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  Đăng kí
+              </a>
+              <p> <i class="fa fa-phone" aria-hidden="true"></i> 0345.088.880 | 0456.078.978</p>
+          </div>
+      </div>
+     </div>
+  <div class="header">
+     <div class="navi1">
+      <ul class="navi">
+          <li><a href="./home.html">Trang chủ</a></li>
+          <li><a href="./home.html#km">Sản phẩm</a></li>
+          <li><a href="../Introduction/gioithieu.html">Giới thiệu</a></li>
+          <li><a href="../Support/bai2.html">Hỗ trợ</a></li>
+          <li><a href="./home.html#news">Tin tức</a></li>
+      </ul>
+      <div class="info">
+          <a href="#" class="js-dangnhap">
+              <i class="fa fa-sign-in" aria-hidden="true"></i>
+              Đăng nhập
+          </a>
+          <span class="px">|</span>
+          <a href="#" class="js-dangki">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              Đăng kí
+          </a>
+      </div>
+  </div>
+  <div class="clear"></div>
+     <div class="navi2">
+      <img src="../Introduction/logo.png" alt="huhu" height="70px">
+      <div class="list">
+          <a href="">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+              Danh mục
+              <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown_menu">
+              <li><a href="./home.html#vegetable">Rau xanh</a></li>
+              <li><a href="./home.html#fruits">Trái cây</a></li>
+              <li><a href="./home.html#fresh-food">Thực phẩm tươi sống</a></li>
+              <li><a href="./home.html#drinks">Đồ uống</a></li>
+          </ul>
+      </div>
+      <div class="search">
+          <input type="text" placeholder="Bạn cần tìm gì...">
+          <div class="ti_search"><i class="fa fa-search" aria-hidden="true"></i></div>
+      </div>
+      <div class="cart">
+          <i class="fa fa-shopping-cart"></i>
+          <p>Giỏ hàng</p>
+          <div class="amount"><p>0</p></div>
+      </div>
+     </div>
+  </div>
+  <div class="login js-login">
+      <div class="login-contain js-logincontain">
+          <div class="login-close js-loginclose">
+              <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <header class="login-header">
+              Đăng nhập
+          </header>
+          <div class="login-body">
+              <form action="">
+                  <label for="aaa" class="login-lable"></label>
+                  <input type="text" class="login-input" required placeholder="Tên đăng nhập hoặc số điện thoại" id="aaa">
+                  <label for="bbb" class="login-lable"></label>
+                  <input type="password" class="login-input" required placeholder="Mật khẩu" id="bbb">
+                  <p>Thành viên mới? <span style="color:green ;" class="js-transfer2">Đăng kí</span></p>
+                  <button class="login-button">ĐĂNG NHẬP</button>
+              </form>
+              
+          </div>
+          <div class="login-footer">
+              <i>Hoặc đăng nhập với</i>
+              <br>
+              <button>
+                  <i class="ti-facebook"></i>
+                  Facebook
+              </button>
+          </div>
+      </div>
+  </div>
+  <div class="login js-register">
+      <div class="register-contain js-register-contain">
+          <div class="login-close js-closeregister">
+              <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <header class="login-header">
+              ĐĂNG KÍ
+              <p>Bạn đã là thành viên? <span style="color:green;" class="js-transfer1">Đăng nhập</span> tại đây</p>
+          </header>
+          <div class="register-body">
+              <form action="">
+                  <label for="aaa" class="login-lable"></label>
+                  <input type="text" class="login-input" required placeholder="Họ và tên" id="aaa">
+                  <label for="bbb" class="login-lable"></label>
+                  <input type="text" class="login-input" required placeholder="Số điện thoại" id="bbb">
+                  <label for="ccc" class="login-lable"></label>
+                  <input type="password" class="login-input" required placeholder="Mật khẩu" id="ccc">
+                  <label for="ddd" class="login-lable"></label>
+                  <input type="password" class="login-input" required placeholder="Xác nhận mật khẩu" id="ddd">
+                  <input type="checkbox" name="" id="checkbox" required>
+                  <label for="">Tôi đồng ý với <a href="https://www.kaercher.com/vn/ben-trong-kaercher/cong-ty/thong-tin-phap-ly/dieu-khoan-su-dung-website.html
+" target="_blank">điều khoản sử dụng</a> và <a href="https://leeandtee.vn/chinh-sach-bao-mat.html
+" target="_blank">chính sách bảo mật</a> của market</label> 
+                  <button class="register-button">ĐĂNG KÍ TÀI KHOẢN</button>
+              </form>
+          </div>
+      </div>
+  </div>
+<!------------------------------------------body------------------------------------------------>
+  <section> 
+    <div class="content">
+      <div class="overview">
+        <div class="text">
+          <h1>Xanh market</h1>
+          <p>Siêu thị thu nhỏ dành cho mọi gia đình</p>
+          <p>
+            <i
+              >__ Với phương châm
+              <span>“Vì chất lượng cuộc sống của mọi nhà”</span>, chúng tôi mang
+              đến cho người tiêu dùng sự lựa chọn đa dạng về hàng hoá, cung cấp
+              nhiều dịch vụ tiện ích, đáp ứng nhu cầu mua sắm từ bình dân đến
+              cao cấp của khách hàng __</i>
+          </p>
+        </div>
+        <div class = "overview-img">
+          <img src="images/Green123.png" alt="Mua sắm" id="first" />
+        </div>
+      </div>
+      <!-- promotion-->
+      <div class="advertisement">
+        <div class="promotion">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  src="images/KM01.jpg"
+                  alt="Khuyến mại 1"
+                  style="width: 100%"
+                />
+              </div>
+
+              <div class="item">
+                <img
+                  src="images/KM02.png"
+                  alt="Khuyến mại 2"
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a
+              class="left carousel-control"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="right carousel-control"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="videos">
+          <a href="../Vip/vip.html">
+            <video autoplay loop>
+              <source src="images/video01.mp4" />
+            </video>
+          </a>
+        </div>
+      </div>
+    </div>
+      <!------------------------------------ sp ------------------------------------->
+    <div id="km">
+      <img src="./images/Siêu thị - banner ngang.png" alt="Siêu thị">
+    </div>
+    <div class="new-product-box">
+      <h2>Sản phẩm khuyến mãi</h2>
+      <div class="list-item">
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/thanh-long.html"><img src="./images/Thanh Long.jpg" alt="Thanh long" /></a>
+            <a>Thanh long</a>
+            <p>30.000đ</p>
+            <span>50.000đ</span>
+            <br>
+            <a href="../Product/thanh-long.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/bap-bo.html"><img src="./images/bắp bò.jpg" alt="Bắp bò" /></a>
+            <a>Bắp bò</a>
+            <p>100.000đ</p>
+            <span>120.000đ</span>
+            <br>
+            <a href="../Product/bap-bo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fruits">
+      
+    </div>
+    <div class="new-product-box fruits">
+      <h2>Trái cây</h2>
+      <div class="list-item">
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/cam-ngot.html"><img src="./images/cam.jpg" alt="Cam" /></a>
+            <a>Cam</a>
+            <p>25.000đ</p>
+            <br>
+            <a href="../Product/cam-ngot.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/bo.html"><img src="./images/bơ.jpg" alt="Bơ" /></a>
+            <a>Bơ</a>
+            <p>60.000đ</p>
+            <br>
+            <a href="../Product/bo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/buoi-da-xanh.html"><img src="./images/Bưởi.jpg" alt="Bưởi" /></a>
+            <a>Bưởi</a>
+            <p>50.000đ</p>
+            <br>
+            <a href="../Product/buoi-da-xanh.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/tao.html"><img src="./images/táo.jpg" alt="Táo" /></a>
+            <a>Táo</a>
+            <p>20.000đ</p>
+            <br>
+            <a href="../Product/tao.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/thanh-long.html"><img src="./images/Thanh Long.jpg" alt="" /></a>
+            <a>Thanh long</a>
+            <p>30.000đ</p>
+            <span>50.000đ</span>
+            <br>
+            <a href="../Product/thanh-long.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="vegetable">
+      <img src="./images/trái cây-banner ngang.jpg" alt="Trái cây">
+      <img src="./images/trái cây-banner ngang 02.jpg" alt="Trái cây">
+    </div>
+    <div class="new-product-box vegetable">
+      <h2>Rau xanh</h2>
+      <div class="list-item">
+          <div class="item">
+            <div class="item-info">
+              <a href="../Product/rau-muong.html"><img src="./images/rau muống 2.jpg" alt="Rau muống" /></a>
+              <a>Rau muống</a>
+              <p>5.000đ</p>
+              <br>
+              <a href="../Product/rau-muong.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+            </div>
+          </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/rau-ngot.html"><img src="./images/rau ngót.jpg" alt="Rau ngót" /></a>
+            <a>Rau ngót</a>
+            <p>15.000đ</p>
+            <br>
+            <a href="../Product/rau-ngot.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/bap-cai.html"><img src="./images/bắp cải.jpg" alt="Bắp cải" /></a>
+            <a>Bắp cải</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/bap-cai.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/rau-den.html"><img src="./images/rau dền 01.jpg" alt="Rau dền" /></a>
+            <a>Rau dền</a>
+            <p>15.000đ</p>
+            <br>
+            <a href="../Product/rau-den.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/cai-bo-xoi.html"><img src="./images/Cải bó xôi 01.jpg" alt="Cải bó xôi" /></a>
+            <a>Cải bó xôi</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/cai-bo-xoi.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="fresh-food">
+      <img src="./images/rau-banner.png" alt="Rau-banner">
+    </div>
+    <div class="new-product-box fresh-food">
+      <h2>Thực phẩm tươi sống</h2>
+      <div class="list-item">
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/bap-bo.html"><img src="./images/bắp bò.jpg" alt="Bắp bò" /></a>
+            <a>Bắp bò</a>
+            <p>100.000đ</p>
+            <span>120.000đ</span>
+            <br>
+            <a href="../Product/bap-bo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/than-bo.html"><img src="./images/thăn bò.jpg" alt="Thăn bò" /></a>
+            <a>Thăn bò</a>
+            <p>305.000đ</p>
+            <br>
+            <a href="../Product/than-bo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/ba-chi-heo.html"><img src="./images/ba chỉ heo cắt lát.jpg" alt="Ba chỉ heo cắt lát" /></a>
+            <a>Ba chỉ heo cắt lát</a>
+            <p>110.000đ</p>
+            <br>
+            <a href="../Product/ba-chi-heo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/dui-ga.html"><img src="./images/gà 02.jpg " alt="Đùi gà" /></a>
+            <a>Đùi gà</a>
+            <p>90.000đ</p>
+            <br>
+            <a href="../Product/dui-ga.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/ba-chi-bo.html"><img src="./images/Ba chỉ bò.jpg" alt="Ba chỉ bò" /></a>
+            <a>Ba chỉ bò</a>
+            <p>120.000đ</p>
+            <br>
+            <a href="../Product/ba-chi-bo.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="drinks">
+      <img src="./images/thịt-banner ngang.jpg" alt="Quảng cáo thịt 01">
+      <img src="./images/Thịt-banner-02.png" alt="Quảng cáo thịt 02">
+    </div>
+    <div class="new-product-box drinks">
+      <h2>Đồ uống</h2>
+      <div class="list-item">
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/7up.html"><img src="./images/7up.jpg" alt="7up" /></a>
+            <a>7up</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/7up.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/strongbow.html"><img src="./images/strongbow.jpg" alt="Strongbow" /></a>
+            <a>Strongbow</a>
+            <p>25.000đ</p>
+            <br>
+            <a href="../Product/strongbow.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/Coca-cola.html"><img src="./images/coca cola.jpg" alt="Coca-Cola" /></a>
+            <a>Coca-Cola</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/Coca-cola.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/pepsi.html"><img src="./images/Pepsi.jpg" alt="Pepsi" /></a>
+            <a>Pepsi</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/pepsi.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="item-info">
+            <a href="../Product/mirinda.html"><img src="./images/Mirinda01.jpg" alt="Mirinda" /></a>
+            <a>Mirinda</a>
+            <p>10.000đ</p>
+            <br>
+            <a href="../Product/mirinda.html"><button class="button1" ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Chi tiết</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="news">
+      <p>Trong tương lai gần, chúng tôi sẽ nhập thêm nhiều loại mặt hàng mới đa dạng hơn!!!</p>
+    </div>
+    <div id="tt">
+      <h1>TIN TỨC</h1>
+      <hr>
+      <div class="f-grid">
+        <div class="f-grid-col">
+          <a target="_blank" href="../News/tin-so-1.html">
+            <img src="../News/img/anh-1.jpg"  >
+          </a>
+          <h5>
+            <a class="cap1" href="../News/tin-so-1.html" target="_blank">5 loại thực phẩm giúp bạn ngủ ngon hơn</a>  
+          </h5> 
+        </div>
+        <div class="f-grid-col">
+          <a target="_blank" href="https://kenh14.vn/5-loai-thuc-pham-se-ngon-hon-nhieu-lan-khi-nau-neu-ban-biet-ap-dung-nhung-thay-doi-nho-nay-20201219142259479.chn">
+            <img src="../News/img/anh-tin-2.jpg"  >
+          </a>
+          <h5>
+            <a class="cap1" href="https://kenh14.vn/5-loai-thuc-pham-se-ngon-hon-nhieu-lan-khi-nau-neu-ban-biet-ap-dung-nhung-thay-doi-nho-nay-20201219142259479.chn" target="_blank">5 loại thực phẩm sẽ ngon hơn nhiều lần khi nấu nếu bạn biết áp dụng những thay đổi nhỏ này</a>  
+          </h5> 
+        </div>
+        <div class="f-grid-col">
+          <a target="_blank" href="https://kenh14.vn/nhung-loai-thuc-pham-de-gay-ngo-doc-neu-khong-che-bien-ky-20220924123945087.chn">
+            <img src="../News/img/anh-tin-3.jpg"  >
+          </a>
+          <h5>
+          <a class="cap1" href="https://kenh14.vn/nhung-loai-thuc-pham-de-gay-ngo-doc-neu-khong-che-bien-ky-20220924123945087.chn" target="_blank">Những loại thực phẩm dễ gây ngộ độc nếu không chế biến kỹ</a>  
+          </h5> 
+      </div>
+    </div>     
+    <div class="f-grid">
+      <div class="f-grid-col">
+        <a target="_blank" href="https://kenh14.vn/6-thuc-pham-giau-vitamin-e-lam-dep-da-toc-va-tang-mien-dich-20220901131904203.chn">
+          <img src="../News/img/anh-tin-4.jpg"  >
+        </a>
+        <h5>
+          <a class="cap1" href="https://kenh14.vn/6-thuc-pham-giau-vitamin-e-lam-dep-da-toc-va-tang-mien-dich-20220901131904203.chn" target="_blank">6 thực phẩm giàu vitamin E làm đẹp da, tóc và tăng miễn dịch </a>  </h5> 
+      </div>
+      <div class="f-grid-col">
+        <a target="_blank" href="https://kenh14.vn/nhung-loai-do-uong-buoi-sang-tot-hon-ca-thuoc-bo-giup-thanh-loc-co-the-ca-ngay-20221012170427218.chn">
+          <img src="../News/img/anh-tin-5.jpg"  >
+        </a>
+        <h5>
+          <a class="cap1" href="https://kenh14.vn/nhung-loai-do-uong-buoi-sang-tot-hon-ca-thuoc-bo-giup-thanh-loc-co-the-ca-ngay-20221012170427218.chn" target="_blank">Những loại đồ uống buổi sáng tốt hơn cả thuốc bổ, giúp thanh lọc cơ thể cả ngày</a>  </h5> 
+      </div>
+      <div class="f-grid-col">
+        <a target="_blank" href="https://kenh14.vn/dieu-gi-se-xay-ra-voi-co-the-neu-ban-an-mot-qua-chuoi-moi-ngay-20221012225337115.chn">
+          <img src="../News/img/anh-tin-6.jpg"  >
+        </a>
+        <h5>
+        <a class="cap1" href="https://kenh14.vn/dieu-gi-se-xay-ra-voi-co-the-neu-ban-an-mot-qua-chuoi-moi-ngay-20221012225337115.chn" target="_blank">Điều gì sẽ xảy ra với cơ thể nếu bạn ăn một quả chuối mỗi ngày?</a>  </h5> 
+      </div>
+    </div>     
+  </div>
+  </section>
+<footer>
+    <div class="row">
+        <div class="boxcenter2">
+            <div class="boxfooter1">
+                <h4 class="roboto">ĐỊA CHỈ CỬA HÀNG</h4>
+                  <p class="textboxfooter"> <i class="fa fa-map-marker iconfooter" aria-hidden="true"></i> Địa chỉ: Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội </p>
+                <p class="textboxfooter"><i class="fa fa-envelope iconfooter" aria-hidden="true"></i> Email: hotro@xanhmarket.vn</p>
+                <p class="textboxfooter"><i class="fa fa-phone iconfooter" aria-hidden="true"></i> Điện thoại: 0345.088.880 | 0923.313.989</p>
+            </div>
+            <div class="boxfooter2">
+                <h4 class="roboto">GIỚI THIỆU</h4>
+                <div><a href="../Introduction/gioithieu.html"class="hotro"> Về chúng tôi</a></div>
+                <div><a href=""class="hotro">Chính sách bảo mật</a></div>
+                <div><a href=""class="hotro">Hệ thống cửa hàng</a></div>
+                <div><a href=""class="hotro">Tuyển dụng</a></div>
+            </div>
+            <div class="boxfooter3">
+              
+                <h4 class="roboto">HỖ TRỢ</h4>
+                <div ><a href="../Support/bai2.html#Hướng dẫn mua hàng"class="hotro"> Hướng dẫn mua hàng</a></div>
+                <div ><a href="../Support/bai2.html#Hình Thức Thanh Toán"class="hotro">Hình thức thanh toán </a></div>
+                <div ><a href="../Support/bai2.html#Chính sách đổi trả"class="hotro">Chính sách đổi trả</a></div>
+                <div ><a href="../Support/bai2.html#Hình Thức Vận Chuyển"class="hotro">Chính sách vận chuyển</a></div>
+            </div>
+            <div class="boxfooter4">
+                <h4 class="roboto">KẾT NỐI VỚI CHÚNG TÔI</h4>
+               
+                <a href="" class="iconfb ">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i> <r class="textfb">Facebook</r>
+                </a><br>
+                <a href="" class="iconins"><i class="fa fa-instagram" aria-hidden="true"></i> <r class="textins"> Instagram</r>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="colorgreen">
+         <p class="textcenter margin10px">Copyright © XANHMarket 2021. All rights reserved.</p>
+         <p class="textcenter margin10px">CÔNG TY TNHH THƯƠNG MẠI XANH MARKET. Mã số doanh nghiệp: 0109723568. Đăng ký lần đầu: ngày 29 tháng 07 năm 2021. </p> 
+        <p class="textcenter margin10px">Trụ sở chính: S3.02-01SH12A Vinhomes Smart City, Phường Tây Mỗ, Quận Nam Từ Liêm, Thành phố Hà Nội, Việt Nam.</p>    
+    </div>
+</footer>
+<script src="../General part/web17.js"></script>
+</body>
+</html>
